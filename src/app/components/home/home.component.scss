@@ -77,3 +77,45 @@ main {
   flex-direction: row;
 }
 }
+
+ .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  padding: 0 90px;
+
+  .description-data {
+
+    h2 {
+      padding: 25px 0px 12px 0;
+    }
+
+    p {
+      width: 505px;
+      height: 72px;
+    }
+  }
+
+}
+
+@media (min-width: 1080px) {
+ .description {
+   flex-direction: row;
+ }
+}
+
+.invite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 142px 0px 142px;
+
+
+  h2 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
